@@ -19,7 +19,7 @@ ETL Pipeline: Python, SQL
 
 Data Warehouse: Postgres
 
-Analytical Dashboard: PowerBI
+Analytical Dashboard: Tableau
 
 ### Installations:
 
@@ -92,6 +92,13 @@ Finally, we can drag this Sheet into a new Dashboard to start making our own cry
 
 You now have a working Tableau Dashboard that is connected to a PostgresSQL DB where data is loaded from an API. Python is used for ETL. 
 
-### Additional Steps:
+### Additional Steps To Implement:
 
-…
+1. Deploy PostgreSQL on AWS RDS for scalability and automated backups.
+2. Use AWS Lambda for serverless ETL and schedule it with CloudWatch Events.
+3. Automate ETL with CloudWatch Events, Cloud Cron Jobs or Google Cloud/Azure Functions.
+4. Host Tableau/PowerBI dashboards on AWS EC2/S3 or build custom ones with Plotly Dash.
+5. Create a Flask/Django API to expose data and embed Tableau/PowerBI into web apps.
+6. Implement CI/CD pipelines using GitHub Actions, Jenkins, or CircleCI for updates.
+7. Dockerize the ETL pipeline, database, and dashboard for consistent deployment.
+8. Monitor ETL jobs and database health using AWS CloudWatch and logging servic
