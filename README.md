@@ -40,11 +40,11 @@ If you installed Postgres, run the pgadmin application
 
 1. Create a DB - name it something intuitive like 'CryptoStore’
 
-![Screenshot 2024-09-22 at 12.21.48 PM.png](End-to-end%20Data%20Analytics%20Pipeline%20Project%201091e92f538e806e9c50e5d4e3775e72/Screenshot_2024-09-22_at_12.21.48_PM.png)
+![assets/Screenshot 2024-09-22 at 12.21.48 PM.png](https://github.com/B-a-1-a/CryptoDataAnalyticsPipeline/blob/main/assets/db1.png)
 
-1. Create a table
+2. Create a table
 
-![Screenshot 2024-09-22 at 12.19.42 PM.png](End-to-end%20Data%20Analytics%20Pipeline%20Project%201091e92f538e806e9c50e5d4e3775e72/Screenshot_2024-09-22_at_12.19.42_PM.png)
+![assets/Screenshot 2024-09-22 at 12.19.42 PM.png](https://github.com/B-a-1-a/CryptoDataAnalyticsPipeline/blob/main/assets/db2.png)
 
 ### Launch Jupyter Notebook:
 
@@ -61,7 +61,10 @@ Additionally you can read this if you are completely new to jupyter notebooks: h
 
 (If you want to use venv or something else that works too)
 
-… Jupyter Notebook stuff
+The source for the notebook is given, we basically "Extract" from API, Transform the data to remove Nas and load to postgres
+
+After running refresh the DB and View all rows on the table:
+![](https://github.com/B-a-1-a/CryptoDataAnalyticsPipeline/blob/main/assets/db3.png)
 
 ### Connect DB to Tableau and Make Dashboard
 
@@ -71,19 +74,19 @@ Read this for instructions on connecting Postgres to Tableau: [https://help.tabl
 
 Once you are in Tableau Desktop, you can 
 
-![Screenshot 2024-09-22 at 2.18.42 PM.png](End-to-end%20Data%20Analytics%20Pipeline%20Project%201091e92f538e806e9c50e5d4e3775e72/Screenshot_2024-09-22_at_2.18.42_PM.png)
+![assets/Screenshot 2024-09-22 at 2.18.42 PM.png](https://github.com/B-a-1-a/CryptoDataAnalyticsPipeline/blob/main/assets/tab1.png)
 
 Enter in server information
 
-![Screenshot 2024-09-22 at 2.44.29 PM.png](End-to-end%20Data%20Analytics%20Pipeline%20Project%201091e92f538e806e9c50e5d4e3775e72/Screenshot_2024-09-22_at_2.44.29_PM.png)
+![assets/Screenshot 2024-09-22 at 2.44.29 PM.png](https://github.com/B-a-1-a/CryptoDataAnalyticsPipeline/blob/main/assets/tab2.png)
 
 Finally, you can design sheets and dashboards. I have created a simple sheet with a Tree map, selecting Name, Symbol and Market Cap as Discrete Dimensions, while selecting Market cap as Continuous Measure for the detail and color.
 
-![image.png](End-to-end%20Data%20Analytics%20Pipeline%20Project%201091e92f538e806e9c50e5d4e3775e72/image.png)
+![image.png](https://github.com/B-a-1-a/CryptoDataAnalyticsPipeline/blob/main/assets/tab3.png)
 
 Finally, we can drag this Sheet into a new Dashboard to start making our own cryptoanalysis Dashboard
 
-![image.png](End-to-end%20Data%20Analytics%20Pipeline%20Project%201091e92f538e806e9c50e5d4e3775e72/image%201.png)
+![image.png](https://github.com/B-a-1-a/CryptoDataAnalyticsPipeline/blob/main/assets/tab4.png)
 
 ## Conclusion:
 
